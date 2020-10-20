@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="314d0c26-a259-4b98-9925-17e8726ee0d5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ih34J8qPil0VehCu7QPQuoq8t0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FourInARow/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314d0c26-a259-4b98-9925-17e8726ee0d5" name="Default Changelist" comment="" />
+      <created>1602345805237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602345805237</updated>
+      <workItem from="1602345806525" duration="3533000" />
+      <workItem from="1602370473576" duration="2421000" />
+      <workItem from="1603045480928" duration="3493000" />
+      <workItem from="1603055648285" duration="3714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1848" y="655" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1603059130227">
+      <screen x="1080" y="382" width="1920" height="1080" />
+    </state>
+    <state x="1848" y="655" key="#com.intellij.ide.util.MemberChooser/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059130227" />
+    <state x="1848" y="673" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346803759" />
+    <state x="1521" y="571" key="SettingsEditor" timestamp="1603059613621">
+      <screen x="1080" y="382" width="1920" height="1080" />
+    </state>
+    <state x="1521" y="571" key="SettingsEditor/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059613621" />
+    <state x="1521" y="589" key="SettingsEditor/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346436165" />
+    <state x="1844" y="628" width="382" height="612" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603059587105">
+      <screen x="1080" y="382" width="1920" height="1080" />
+    </state>
+    <state x="1844" y="628" width="382" height="612" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059587105" />
+    <state x="1873" y="720" width="323" height="466" key="refactoring.ChangeSignatureDialog" timestamp="1602346884426">
+      <screen x="1080" y="400" width="1920" height="1080" />
+    </state>
+    <state x="1873" y="720" width="323" height="466" key="refactoring.ChangeSignatureDialog/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346884426" />
+  </component>
+</project>
