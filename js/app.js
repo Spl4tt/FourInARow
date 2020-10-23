@@ -9,3 +9,7 @@ startButton.addEventListener('click', (event) => {
     event.target.style.display = 'none';
     document.getElementById('play-area').style.opacity = '1';
 });
+
+document.addEventListener('keydown', (event) => {
+    game.handleKeydown(event);
+})

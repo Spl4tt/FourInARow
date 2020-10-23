@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314d0c26-a259-4b98-9925-17e8726ee0d5" name="Default Changelist" comment="" />
+    <list default="true" id="314d0c26-a259-4b98-9925-17e8726ee0d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ih34J8qPil0VehCu7QPQuoq8t0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -53,6 +61,10 @@
       <workItem from="1602370473576" duration="2421000" />
       <workItem from="1603045480928" duration="3493000" />
       <workItem from="1603055648285" duration="3714000" />
+      <workItem from="1603218175429" duration="2782000" />
+      <workItem from="1603451615860" duration="476000" />
+      <workItem from="1603452103719" duration="1686000" />
+      <workItem from="1603464502413" duration="2144000" />
     </task>
     <servers />
   </component>
@@ -65,9 +77,10 @@
     </state>
     <state x="1848" y="655" key="#com.intellij.ide.util.MemberChooser/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059130227" />
     <state x="1848" y="673" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346803759" />
-    <state x="1521" y="571" key="SettingsEditor" timestamp="1603059613621">
-      <screen x="1080" y="382" width="1920" height="1080" />
+    <state x="441" y="212" key="SettingsEditor" timestamp="1603453150836">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
+    <state x="441" y="212" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1603453150836" />
     <state x="1521" y="571" key="SettingsEditor/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059613621" />
     <state x="1521" y="589" key="SettingsEditor/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346436165" />
     <state x="1844" y="628" width="382" height="612" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603059587105">
@@ -78,5 +91,9 @@
       <screen x="1080" y="400" width="1920" height="1080" />
     </state>
     <state x="1873" y="720" width="323" height="466" key="refactoring.ChangeSignatureDialog/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346884426" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1603465323308">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1603465323308" />
   </component>
 </project>
