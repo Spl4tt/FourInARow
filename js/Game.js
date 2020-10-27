@@ -25,21 +25,37 @@ class Game {
      * Branches code, depending on what key player presses
      * @param   {Object}    e - Keydown event object
      */
-    handleKeydown(event) {
+    handleKeydown(e) {
         if(this.ready) {
-            if(event.key === "ArrowLeft") {
+            if(e.key === "ArrowLeft") {
                 this.activePlayer.activeToken.moveLeft();
             }
-            else if (event.key === "ArrowRight") {
+            else if (e.key === "ArrowRight") {
                 this.activePlayer.activeToken.moveRight(this.board.columns);
             }
-            else if (event.key === "ArrowDown") {
-
+            else if (e.key === "ArrowDown") {
+                this.playToken();
             }
         }
     }
 
     get activePlayer() {
          return this.players.find(player => player.active);
+    }
+
+    playToken() {
+        const activeToken = this.activePlayer.activeToken;
+        const column = activeToken.columnLocation;
+        let targetSpace = null;
+        for(const space of this.board.spaces[column]) {
+            if(space.token === null) {
+                targetSpace = space;
+            }
+        }
+
+        if(targetSpace !== null) {
+            game.ready = false;
+            activeToken.drop(targetSpace);
+        }
     }
 }

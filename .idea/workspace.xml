@@ -4,8 +4,8 @@
     <list default="true" id="314d0c26-a259-4b98-9925-17e8726ee0d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Space.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,12 +64,27 @@
       <workItem from="1603218175429" duration="2782000" />
       <workItem from="1603451615860" duration="476000" />
       <workItem from="1603452103719" duration="1686000" />
-      <workItem from="1603464502413" duration="2144000" />
+      <workItem from="1603464502413" duration="2276000" />
+      <workItem from="1603721424889" duration="1827000" />
+      <workItem from="1603734848266" duration="2883000" />
+      <workItem from="1603800657536" duration="1891000" />
     </task>
+    <task id="LOCAL-00001" summary="Added keydown event &amp; moveLeft / moveRight functions">
+      <created>1603466737668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603466737668</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added keydown event &amp; moveLeft / moveRight functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added keydown event &amp; moveLeft / moveRight functions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1848" y="655" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1603059130227">
@@ -77,12 +92,20 @@
     </state>
     <state x="1848" y="655" key="#com.intellij.ide.util.MemberChooser/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059130227" />
     <state x="1848" y="673" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346803759" />
-    <state x="441" y="212" key="SettingsEditor" timestamp="1603453150836">
+    <state x="492" y="67" width="925" height="972" key="CommitChangelistDialog2" timestamp="1603466737396">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="441" y="212" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1603453150836" />
+    <state x="492" y="67" width="925" height="972" key="CommitChangelistDialog2/0.28.1920.1052@0.28.1920.1052" timestamp="1603466737396" />
+    <state x="441" y="212" key="SettingsEditor" timestamp="1603734208272">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="441" y="212" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1603734208272" />
     <state x="1521" y="571" key="SettingsEditor/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059613621" />
     <state x="1521" y="589" key="SettingsEditor/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346436165" />
+    <state x="555" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1603466758505">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="555" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2/0.28.1920.1052@0.28.1920.1052" timestamp="1603466758505" />
     <state x="1844" y="628" width="382" height="612" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603059587105">
       <screen x="1080" y="382" width="1920" height="1080" />
     </state>
@@ -91,6 +114,10 @@
       <screen x="1080" y="400" width="1920" height="1080" />
     </state>
     <state x="1873" y="720" width="323" height="466" key="refactoring.ChangeSignatureDialog/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346884426" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1603734462296">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1603734462296" />
     <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1603465323308">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
