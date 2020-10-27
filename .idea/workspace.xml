@@ -4,8 +4,8 @@
     <list default="true" id="314d0c26-a259-4b98-9925-17e8726ee0d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Game.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Player.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Space.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Token.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Token.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +67,9 @@
       <workItem from="1603464502413" duration="2276000" />
       <workItem from="1603721424889" duration="1827000" />
       <workItem from="1603734848266" duration="2883000" />
-      <workItem from="1603800657536" duration="1891000" />
+      <workItem from="1603800657536" duration="2539000" />
+      <workItem from="1603806024445" duration="299000" />
+      <workItem from="1603806338514" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="Added keydown event &amp; moveLeft / moveRight functions">
       <created>1603466737668</created>
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603466737668</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Many things inclusive check for Win function">
+      <created>1603804352721</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603804352721</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added keydown event &amp; moveLeft / moveRight functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added keydown event &amp; moveLeft / moveRight functions" />
+    <MESSAGE value="Many things inclusive check for Win function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many things inclusive check for Win function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1848" y="655" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1603059130227">
@@ -92,16 +102,20 @@
     </state>
     <state x="1848" y="655" key="#com.intellij.ide.util.MemberChooser/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059130227" />
     <state x="1848" y="673" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346803759" />
-    <state x="492" y="67" width="925" height="972" key="CommitChangelistDialog2" timestamp="1603466737396">
+    <state x="492" y="67" width="925" height="972" key="CommitChangelistDialog2" timestamp="1603804352523">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="492" y="67" width="925" height="972" key="CommitChangelistDialog2/0.28.1920.1052@0.28.1920.1052" timestamp="1603466737396" />
-    <state x="441" y="212" key="SettingsEditor" timestamp="1603734208272">
+    <state x="492" y="67" width="925" height="972" key="CommitChangelistDialog2/0.28.1920.1052@0.28.1920.1052" timestamp="1603804352523" />
+    <state x="441" y="212" key="SettingsEditor" timestamp="1603806322070">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="441" y="212" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1603734208272" />
+    <state x="441" y="212" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1603806322070" />
     <state x="1521" y="571" key="SettingsEditor/1080.382.1920.1080/0.410.1080.1510@1080.382.1920.1080" timestamp="1603059613621" />
     <state x="1521" y="589" key="SettingsEditor/1080.400.1920.1080/0.428.1080.1492@1080.400.1920.1080" timestamp="1602346436165" />
+    <state x="689" y="289" width="540" height="524" key="StructurePopup" timestamp="1603809254469">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="689" y="289" width="540" height="524" key="StructurePopup/0.28.1920.1052@0.28.1920.1052" timestamp="1603809254469" />
     <state x="555" y="289" width="800" height="527" key="Vcs.Push.Dialog.v2" timestamp="1603466758505">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
